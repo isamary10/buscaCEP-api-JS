@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(179, 83, 98);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 40%;
+    margin: 5% auto;
+    background: #654a90;
+    
+}
+
+.truck{
+    width: 100%;
+    background-image: url(../img/truck.gif);
+    background-size: 100%;
+    height: 280px;
+    padding-bottom: 70px;
+}
+
+.inputs{
+    padding: 5%;
+}
+
+.inputs .group{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs div label{
+    font-weight: bold;
+    color: #fff;
+}
+
+.inputs div input{
+    height: 30px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.input-content {
+    display:flex;
+    background: #e4e4e4;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.icon{
+    width: 25px;
+    padding: 4px;
+}
+
+label{
+    padding: 5px 0 2px 0;
+}
