@@ -13,6 +13,6 @@ cep.onkeyup = async (event)=>{
         rua.value = dadosCep.logradouro
         complemento.value = dadosCep.complemento
         bairro.value = dadosCep.bairro
-        UF.value = dadosCep.uf  
+        UF.value = dadosCep.uf
     }
 }
